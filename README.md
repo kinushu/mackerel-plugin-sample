@@ -15,6 +15,13 @@ mackerel-plugin-sample [-metric-key-prefix=<prefix>]
 command = "/path/to/mackerel-plugin-sample"
 ```
 
+## How to build
+
+```shell
+make setup
+goreleaser release --snapshot --skip-publish --clean
+```
+
 ## How to release
 
 ### Release by GitHub Actions
